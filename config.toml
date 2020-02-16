@@ -1,0 +1,18 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Password Shamer"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[permalinks]
+  shame = "/:filename/"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    weight = 1
+  [[menu.main]]
+    name = "Shamed"
+    weight = 2
+
+[params]
+  tagline = "Shaming bad password requirements and storage practices everywhere."
