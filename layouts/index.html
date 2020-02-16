@@ -5,10 +5,20 @@
   <p class="font-125">{{ .Site.Params.tagline | markdownify }}</p>
 </div>
 
-{{ range where .Site.Pages "Params.type" "shame" }}
-  <li>
-    <a href="#">{{.Title}}</a>
-  </li>
-{{ end }}
+<section class="shamed-list">
+  <ul>
+    {{ range $.Site.Data.list.entity }}
+    <li>
+      <article>
+        <h1>
+          <a href="{{ .url }} ">
+            {{ .name}}
+          </a>
+        </h1>
+      </article>
+    </li>
+    {{ end }}
+  </ul>
+</section>
 
 {{ end }}

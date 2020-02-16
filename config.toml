@@ -3,9 +3,6 @@ languageCode = "en-us"
 title = "Password Shamer"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
-[permalinks]
-  shame = "/:filename/"
-
 [menu]
   [[menu.main]]
     name = "Home"

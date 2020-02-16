@@ -1,0 +1,9 @@
+[[entity]]
+  name = "Apple"
+  plaintextPasswordFlag = false
+  url = "https://appleid.apple.com/"
+
+[[entity]]
+  name = "Summit Racing"
+  plaintextPasswordFlag = false
+  url = "https://www.summitracing.com/"
