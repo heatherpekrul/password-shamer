@@ -6,3 +6,4 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [params]
   tagline = "Shaming bad password requirements and practices everywhere."
   contributeTitle = "Contribute to this project"
+  
