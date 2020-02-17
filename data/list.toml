@@ -65,6 +65,12 @@
   description = "Only allows a four digit PIN to protect your account."
 
 [[entity]]
+  name = "Johnson County Wastewater"
+  plaintextPasswordFlag = false
+  url = "https://jcwcss.jcw.org/webinquiry/JSP/login.jsp"
+  description = "This is a mess."
+
+[[entity]]
   name = "Lloyds Bank"
   plaintextPasswordFlag = false
   url = "https://www.lloydsbank.com/"
@@ -101,6 +107,12 @@
   description = "Only allows passwords of up to ten characters."
 
 [[entity]]
+  name = "Target"
+  plaintextPasswordFlag = false
+  url = "https://www.target.com/"
+  description = "Maximum of 20 characters, and disallows certain special characters."
+
+[[entity]]
   name = "TD Ameritrade"
   plaintextPasswordFlag = false
   url = "https://www.tdameritrade.com/"
@@ -123,6 +135,12 @@
   plaintextPasswordFlag = false
   url = "https://www.wm.com/"
   description = "Only allows passwords between 8 and 15 characters, and disallows the @ symbol."
+
+[[entity]]
+  name = "WaterOne"
+  plaintextPasswordFlag = false
+  url = "https://www.waterone.org/"
+  description = "Only allows passwords between 8 and 30 characters."
 
 [[entity]]
   name = "Wells Fargo"
