@@ -1,9 +1,13 @@
 <li>
-  <article>
-    <h1>
+  <article class="card">
+    <h1 class="card__title">
       <a href="{{ .url }} ">
         {{ .name}}
       </a>
     </h1>
+
+    <div class="card__description">
+      {{ .description }}
+    </div>
   </article>
 </li>

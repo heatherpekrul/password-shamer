@@ -1,5 +1,9 @@
+// Setup
 @import 'settings';
+@import 'display';
+@import 'defaults';
 
-body {
-    background: $color-party-girl;
-}
+// Chunks
+@import 'footer';
+@import 'hero';
+@import 'shame';

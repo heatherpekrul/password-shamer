@@ -1,0 +1,33 @@
+.shamed-list {
+  ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      flex: 0 0 calc(33.3333% - 0.6rem);
+      margin: 0 0 1rem 0;
+      padding: 1rem;
+      background: rgba($color-white, 0.6);
+      transition: background-color 0.2s;
+      color: $color-black;
+
+      &:hover {
+        background: rgba($color-white, 1);
+      }
+    }
+  }
+}
+
+.card {
+  &__title {
+    font-size: 1.25em;
+  }
+
+  &__description {
+
+  }
+}

@@ -1,9 +1,138 @@
 [[entity]]
+  name = "AT&T"
+  plaintextPasswordFlag = false
+  url = "https://www.att.com/"
+  description = "Password must be 6-24 characters long and use at least one letter and one number. Only upper/lower case letters, numbers, hyphens and underscores are allowed."
+
+[[entity]]
   name = "Apple"
   plaintextPasswordFlag = false
   url = "https://appleid.apple.com/"
+  description = "Passwords must contain at least eight characters, a number, an uppercase letter, and a lowercase letter. Passwords can't use spaces, the same character three times in a row, your Apple ID, or a password you've used in the last year."
+
+[[entity]]
+  name = "Bank of America"
+  plaintextPasswordFlag = false
+  url = "https://www.bankofamerica.com/"
+  description = "Disallows special characters."
+
+[[entity]]
+  name = "Blizzard"
+  plaintextPasswordFlag = false
+  url = "https://www.blizzard.com/"
+  description = "Only allows up to 16 characters."
+
+[[entity]]
+  name = "Capitol Federal Bank"
+  plaintextPasswordFlag = false
+  url = "https://capfed.com/"
+  description = "Restricts the use of special characters."
+
+[[entity]]
+  name = "Charles Schwab"
+  plaintextPasswordFlag = false
+  url = "https://www.schwab.com/"
+  description = "Restricts length to eight characters and disallows special characters. Goes the extra mile by making passwords case-insensitive."
+
+[[entity]]
+  name = "Chase"
+  plaintextPasswordFlag = false
+  url = "https://www.chase.com/"
+  description = "Only allows passwords of up to 32 characters in length."
+
+[[entity]]
+  name = "Elanco Animal Health Rebates"
+  plaintextPasswordFlag = false
+  url = "https://novartisrebates.com/"
+  description = "Password must contain only letters and numbers."
+
+[[entity]]
+  name = "FAA MedXPress"
+  plaintextPasswordFlag = false
+  url = "https://medxpress.faa.gov/"
+  description = "Only allows passwords between 8-12 characters in length."
+
+[[entity]]
+  name = "Flaticon"
+  plaintextPasswordFlag = false
+  url = "https://www.flaticon.com/"
+  description = "In their words, 'The field password must contains [sic] only letters and numbers'."
+
+[[entity]]
+  name = "InterContinental Hotels Group"
+  plaintextPasswordFlag = false
+  url = "https://www.ihg.com/"
+  description = "Only allows a four digit PIN to protect your account."
+
+[[entity]]
+  name = "Lloyds Bank"
+  plaintextPasswordFlag = false
+  url = "https://www.lloydsbank.com/"
+  description = "Disallows special characters."
+
+[[entity]]
+  name = "Lowes"
+  plaintextPasswordFlag = false
+  url = "https://www.lowes.com/"
+  description = "Requires passwords to be between 6 and 12 characters long, and passwords cannot contain spaces."
+
+[[entity]]
+  name = "Origin"
+  plaintextPasswordFlag = false
+  url = "https://www.origin.com/"
+  description = "Only allows passwords between 8-16 characters."
+
+[[entity]]
+  name = "Rockstar Games Social Club"
+  plaintextPasswordFlag = false
+  url = "https://socialclub.rockstargames.com/"
+  description = "Only allows alphanumeric characters."
+
+[[entity]]
+  name = "Sling TV"
+  plaintextPasswordFlag = false
+  url = "https://www.sling.com/"
+  description = "Passwords must be 4-30 characters. Letters and Numbers only."
 
 [[entity]]
   name = "Summit Racing"
   plaintextPasswordFlag = false
   url = "https://www.summitracing.com/"
+  description = "Only allows passwords of up to ten characters."
+
+[[entity]]
+  name = "TD Ameritrade"
+  plaintextPasswordFlag = false
+  url = "https://www.tdameritrade.com/"
+  description = "Only allows passwords of up to 15 characters in length and disallows special characters."
+
+[[entity]]
+  name = "T Rowe Price"
+  plaintextPasswordFlag = false
+  url = "https://www.troweprice.com/"
+  description = "Only allows passwords of up to 10 characters."
+
+[[entity]]
+  name = "Victoria's Secret"
+  plaintextPasswordFlag = false
+  url = "https://www.victoriassecret.com/"
+  description = "Disallows special characters."
+
+[[entity]]
+  name = "Waste Management"
+  plaintextPasswordFlag = false
+  url = "https://www.wm.com/"
+  description = "Only allows passwords between 8 and 15 characters, and disallows the @ symbol."
+
+[[entity]]
+  name = "Wells Fargo"
+  plaintextPasswordFlag = false
+  url = "https://www.wellsfargo.com/"
+  description = "Only allows up to 14 character passwords and limits the length by restricting the input field length. If you type a longer password, it only uses the first 14 characters. Same when you log in. Password field stops after 14 characters so if you keep typing, it will just ignore the extra characters."
+
+[[entity]]
+  name = "Zoom"
+  plaintextPasswordFlag = false
+  url = "https://zoom.us/"
+  description = "Only allows passwords of up to 32 characters in length."
+

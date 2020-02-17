@@ -2,21 +2,19 @@
 <html lang="en">
   {{ partial "head.html" . }}
   <body>
-    {{ partial "nav.html" . }}
+    {{ partial "hero.html" . }}
 
-    <div class="container">
-      <main id="main">
-        {{ partial "hero.html" . }}
-        
-        <section class="shamed-list">
-          <ul>
-            {{ range $.Site.Data.list.entity }}
-              {{ partial "entity.html" . }}
-            {{ end }}
-          </ul>
-        </section>
-      </main>
-    </div>
+    <main class="shamed-list container">
+      <section class="shamed-list">
+        <ul>
+          {{ range $.Site.Data.list.entity }}
+            {{ partial "entity.html" . }}
+          {{ end }}
+        </ul>
+      </section>
+
+      {{ partial "contribute.html" }}
+    </main>
 
     {{ partial "footer.html" . }}
   </body>
