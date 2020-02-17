@@ -4,7 +4,7 @@
   <body>
     {{ partial "hero.html" . }}
 
-    <main class="shamed-list container">
+    <main class="container">
       <section class="shamed-list">
         <ul>
           {{ range $.Site.Data.list.entity }}
@@ -13,7 +13,7 @@
         </ul>
       </section>
 
-      {{ partial "contribute.html" }}
+      {{ partial "contribute.html" . }}
     </main>
 
     {{ partial "footer.html" . }}

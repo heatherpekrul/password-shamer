@@ -1,15 +1,8 @@
-baseURL = "http://example.org/"
+baseURL = "https://passwordshamer.com/"
 languageCode = "en-us"
 title = "Password Shamer"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
-[menu]
-  [[menu.main]]
-    name = "Home"
-    weight = 1
-  [[menu.main]]
-    name = "Shamed"
-    weight = 2
-
 [params]
-  tagline = "Shaming bad password requirements and storage practices everywhere."
+  tagline = "Shaming bad password requirements and practices everywhere."
+  contributeTitle = "Contribute to this project"

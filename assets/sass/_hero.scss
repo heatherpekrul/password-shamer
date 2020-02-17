@@ -1,9 +1,18 @@
 .hero {
-  &__title {
+  background: $color-danger-zone;
+  margin-bottom: 1rem;
 
+  &__title {
+    color: $color-peach;
   }
 
   &__tagline {
-    
+    color: $color-cream;
+  }
+
+  &__quote {
+    color: $color-blush;
+    text-align: center;
+    font-style: italic;
   }
 }
