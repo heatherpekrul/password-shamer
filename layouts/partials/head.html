@@ -5,5 +5,15 @@
     {{ $style := resources.Get "sass/index.scss" | toCSS | minify }} 
     <link rel="stylesheet" href="{{ $style.Permalink }}">
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-57553410-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-57553410-1');
+    </script>
+
     <title>{{ .Title }}</title>
 </head>
