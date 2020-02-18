@@ -77,6 +77,12 @@
   description = "In their words, 'The field password must contains [sic] only letters and numbers'."
 
 [[entity]]
+  name = "Horizons North Credit Union"
+  plaintextPasswordFlag = false
+  url = "https://www.hncu.org/"
+  description = "Must be between 8 and 10 characters, restricts to a limited special character set, must contain at least two alphabetic characters, must contain three non-alphabetic characters."
+
+[[entity]]
   name = "Hyatt"
   plaintextPasswordFlag = false
   url = "https://hyatt.com/"
