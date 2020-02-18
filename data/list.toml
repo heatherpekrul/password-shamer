@@ -8,7 +8,7 @@
   name = "Apple"
   plaintextPasswordFlag = false
   url = "https://appleid.apple.com/"
-  description = "Passwords must contain at least eight characters, a number, an uppercase letter, and a lowercase letter. Passwords can't use spaces, the same character three times in a row, your Apple ID, or a password you've used in the last year."
+  description = "Passwords must contain a number, an uppercase letter, and a lowercase letter. Passwords can't use spaces or the same character three times in a row."
 
 [[entity]]
   name = "Bank of America"
@@ -21,6 +21,12 @@
   plaintextPasswordFlag = false
   url = "https://www.blizzard.com/"
   description = "Only allows up to 16 characters."
+
+[[entity]]
+  name = "Blizzard Gear Store"
+  plaintextPasswordFlag = false
+  url = "https://www.blizzardgearstore.com/"
+  description = "Only allows up to 20 characters."
 
 [[entity]]
   name = "Capitol Federal Bank"
@@ -41,6 +47,12 @@
   description = "Only allows passwords of up to 32 characters in length."
 
 [[entity]]
+  name = "Eddie Bauer"
+  plaintextPasswordFlag = false
+  url = "https://www.eddiebauer.com/"
+  description = "Max 20 characters"
+
+[[entity]]
   name = "Elanco Animal Health Rebates"
   plaintextPasswordFlag = false
   url = "https://novartisrebates.com/"
@@ -53,10 +65,22 @@
   description = "Only allows passwords between 8-12 characters in length."
 
 [[entity]]
+  name = "Fabric.com"
+  plaintextPasswordFlag = false
+  url = "https://www.fabric.com/"
+  description = "Alphanumeric characters only"
+
+[[entity]]
   name = "Flaticon"
   plaintextPasswordFlag = false
   url = "https://www.flaticon.com/"
   description = "In their words, 'The field password must contains [sic] only letters and numbers'."
+
+[[entity]]
+  name = "Hyatt"
+  plaintextPasswordFlag = false
+  url = "https://hyatt.com/"
+  description = "Max 35 characters"
 
 [[entity]]
   name = "InterContinental Hotels Group"
@@ -71,6 +95,12 @@
   description = "This is a mess."
 
 [[entity]]
+  name = "Kate Spade"
+  plaintextPasswordFlag = false
+  url = "https://www.katespade.com/"
+  description = "Max 20 characters"
+
+[[entity]]
   name = "Lloyds Bank"
   plaintextPasswordFlag = false
   url = "https://www.lloydsbank.com/"
@@ -83,10 +113,22 @@
   description = "Requires passwords to be between 6 and 12 characters long, and passwords cannot contain spaces."
 
 [[entity]]
+  name = "MyMazda"
+  plaintextPasswordFlag = false
+  url = "https://www.mymazda.com/"
+  description = "Max 16 characters, alphanumeric characters only, restricts special characters."
+
+[[entity]]
   name = "Origin"
   plaintextPasswordFlag = false
   url = "https://www.origin.com/"
   description = "Only allows passwords between 8-16 characters."
+
+[[entity]]
+  name = "REI"
+  plaintextPasswordFlag = false
+  url = "https://www.rei.com/"
+  description = "Max 16 characters"
 
 [[entity]]
   name = "Rockstar Games Social Club"
@@ -95,10 +137,22 @@
   description = "Only allows alphanumeric characters."
 
 [[entity]]
+  name = "Sephora"
+  plaintextPasswordFlag = false
+  url = "https://www.sephora.com/"
+  description = "Max 12 characters, no spaces"
+
+[[entity]]
   name = "Sling TV"
   plaintextPasswordFlag = false
   url = "https://www.sling.com/"
   description = "Passwords must be 4-30 characters. Letters and Numbers only."
+
+[[entity]]
+  name = "Soccer.com"
+  plaintextPasswordFlag = false
+  url = "https://www.soccer.com/"
+  description = "Cannot contain more than 4 of the same character in the entire password"
 
 [[entity]]
   name = "Summit Racing"
