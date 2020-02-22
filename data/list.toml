@@ -17,6 +17,12 @@
   description = "Disallows special characters."
 
 [[entity]]
+  name = "Bath & Body Works"
+  plaintextPasswordFlag = false
+  url = "https://www.bathandbodyworks.com/"
+  description = "Only allows up to 50 characters, and disallows spaces."
+
+[[entity]]
   name = "Blizzard"
   plaintextPasswordFlag = false
   url = "https://www.blizzard.com/"
@@ -45,6 +51,18 @@
   plaintextPasswordFlag = false
   url = "https://www.chase.com/"
   description = "Only allows passwords of up to 32 characters in length."
+
+[[entity]]
+  name = "Costco"
+  plaintextPasswordFlag = false
+  url = "https://www.costco.com/"
+  description = "Only allows up to 20 characters, and restricts the use of special characters."
+
+[[entity]]
+  name = "Delta Air Lines"
+  plaintextPasswordFlag = false
+  url = "https://www.delta.com/"
+  description = "Only allows up to 20 characters, restricts special characters, and only allows up to three special characters."
 
 [[entity]]
   name = "Eddie Bauer"
@@ -149,6 +167,12 @@
   description = "Only allows alphanumeric characters."
 
 [[entity]]
+  name = "Sarpinos Pizzeria"
+  plaintextPasswordFlag = false
+  url = "https://www.gosarpinos.com/"
+  description = "Rules unknown - simply errors out when certain characters, like #, are used."
+
+[[entity]]
   name = "Sephora"
   plaintextPasswordFlag = false
   url = "https://www.sephora.com/"
@@ -188,7 +212,7 @@
   name = "T Rowe Price"
   plaintextPasswordFlag = false
   url = "https://www.troweprice.com/"
-  description = "Only allows passwords of up to 10 characters."
+  description = "Only allows passwords of up to 32 characters, and restricts use of special characters. Cannot contain >= 3 of the same character sequentially."
 
 [[entity]]
   name = "Victoria's Secret"
