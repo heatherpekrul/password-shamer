@@ -215,6 +215,12 @@
   description = "Only allows up to 14 character passwords and limits the length by restricting the input field length. If you type a longer password, it only uses the first 14 characters. Same when you log in. Password field stops after 14 characters so if you keep typing, it will just ignore the extra characters."
 
 [[entity]]
+  name = "Williams Sonoma"
+  plaintextPasswordFlag = false
+  url = "https://www.williams-sonoma.com/"
+  description = "Max 25 characters in length."
+
+[[entity]]
   name = "Zoom"
   plaintextPasswordFlag = false
   url = "https://zoom.us/"
