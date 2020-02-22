@@ -5,6 +5,8 @@
     {{ partial "hero.html" . }}
 
     <main>
+      {{ partial "about.html" . }}
+
       <section class="shamed-list">
         <ul class="container">
           {{ range $.Site.Data.list.entity }}
