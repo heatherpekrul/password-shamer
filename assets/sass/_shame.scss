@@ -38,7 +38,8 @@
     font-size: 1.25em;
   }
 
-  &__description {
-
+  a {
+    text-decoration: none;
+    color: $color-berry-girl;
   }
 }

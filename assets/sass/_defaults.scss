@@ -27,10 +27,11 @@ body {
 
 a {
   color: $color-party-girl;
-  text-decoration: none;
+  text-decoration: underline;
+  transition: color 0.2s;
 
   &:hover {
-    text-decoration: underline;
+    color: darken($color-party-girl, 10%);
   }
 }
 
