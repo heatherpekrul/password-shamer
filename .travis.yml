@@ -11,7 +11,7 @@ script:
 - hugo
 before_deploy:
 - openssl aes-256-cbc -K $encrypted_faafb99445c4_key -iv $encrypted_faafb99445c4_iv
-  -in deploy_rsa.enc -out deploy_rsa -d
+  -in deploy_rsa.enc -out /tmp/deploy_rsa -d
 - eval "$(ssh-agent -s)"
 - ls -la /tmp
 - chmod 600 /tmp/deploy_rsa
