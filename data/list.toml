@@ -142,6 +142,12 @@
   url = "https://www.mymazda.com/"
   description = "Max 16 characters, alphanumeric characters only, restricts special characters."
 
+  [[entity]]
+  name = "MySubaru"
+  plaintextPasswordFlag = false
+  url = "https://www.mysubaru.com"
+  description = "Max 15 characters, disallows spaces."
+
 [[entity]]
   name = "Origin"
   plaintextPasswordFlag = false
