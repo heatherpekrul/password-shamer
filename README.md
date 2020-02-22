@@ -1,5 +1,7 @@
 # Password Shamer
 
+[![Build Status](https://travis-ci.com/heatherpekrul/password-shamer.svg?branch=master)](https://travis-ci.com/heatherpekrul/password-shamer)
+
 Shaming bad password requirements and practices everywhere.
 
 ## Setup
