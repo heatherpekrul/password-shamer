@@ -5,9 +5,9 @@ language: node_js
 node_js:
 - lts/*
 
-install:
-- wget "https://github.com/gohugoio/hugo/releases/download/v${HUGO_RELEASE}/hugo_extended_${HUGO_RELEASE}_Linux-64bit.deb"
-- sudo dpkg -i hugo*.deb
+# install:
+# - wget "https://github.com/gohugoio/hugo/releases/download/v${HUGO_RELEASE}/hugo_extended_${HUGO_RELEASE}_Linux-64bit.deb"
+# - sudo dpkg -i hugo*.deb
 
 script:
   - mkdir hugo
