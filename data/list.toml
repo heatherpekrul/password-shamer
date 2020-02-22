@@ -131,6 +131,12 @@
   description = "Only allows passwords between 8-16 characters."
 
 [[entity]]
+  name = "Project Euler"
+  plaintextPasswordFlag = false
+  url = "https://projecteuler.net"
+  description = "Passwords must contain between 8 and 32 characters."
+
+[[entity]]
   name = "REI"
   plaintextPasswordFlag = false
   url = "https://www.rei.com/"
