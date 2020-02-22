@@ -1,12 +1,13 @@
 .shamed-list {
-  margin-bottom: 1rem;
+  background: $color-peach;
+  background: radial-gradient(circle, $color-peach 0%, $color-blush 74%, $color-lilac 100%);
 
   ul {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
     list-style: none;
 
     li {

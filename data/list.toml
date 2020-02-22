@@ -23,7 +23,7 @@
   description = "Only allows up to 50 characters, and disallows spaces."
 
 [[entity]]
-  name = "Blizzard"
+  name = "Blizzard/Battle.net"
   plaintextPasswordFlag = false
   url = "https://www.blizzard.com/"
   description = "Only allows up to 16 characters."

@@ -4,9 +4,9 @@
   <body>
     {{ partial "hero.html" . }}
 
-    <main class="container">
+    <main>
       <section class="shamed-list">
-        <ul>
+        <ul class="container">
           {{ range $.Site.Data.list.entity }}
             {{ partial "entity.html" . }}
           {{ end }}
