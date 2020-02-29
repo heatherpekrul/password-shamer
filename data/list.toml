@@ -286,3 +286,9 @@
   url = "https://zoom.us/"
   description = "Only allows passwords of up to 32 characters in length."
 
+[[entity]]
+  name = "Major League Baseball"
+  plaintextPasswordFlag = false
+  url = "https://www.mlb.com/"
+  description = "Must be 8 - 15 characters. Disallows special characters and does not specify it."
+
