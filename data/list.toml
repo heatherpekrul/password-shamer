@@ -143,6 +143,12 @@
   description = "Requires passwords to be between 6 and 12 characters long, and passwords cannot contain spaces."
 
 [[entity]]
+  name = "Major League Baseball"
+  plaintextPasswordFlag = false
+  url = "https://www.mlb.com/"
+  description = "Must be 8 - 15 characters. Disallows special characters and does not specify it."
+
+[[entity]]
   name = "Merrell"
   plaintextPasswordFlag = false
   url = "https://www.merrell.com/"
@@ -285,10 +291,4 @@
   plaintextPasswordFlag = false
   url = "https://zoom.us/"
   description = "Only allows passwords of up to 32 characters in length."
-
-[[entity]]
-  name = "Major League Baseball"
-  plaintextPasswordFlag = false
-  url = "https://www.mlb.com/"
-  description = "Must be 8 - 15 characters. Disallows special characters and does not specify it."
 
