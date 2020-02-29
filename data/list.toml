@@ -125,6 +125,12 @@
   description = "Max 20 characters"
 
 [[entity]]
+  name = "KStateSports.com Store"
+  plaintextPasswordFlag = false
+  url = "https://shop.kstatesports.com/"
+  description = "Max 20 characters"
+
+[[entity]]
   name = "Lloyds Bank"
   plaintextPasswordFlag = false
   url = "https://www.lloydsbank.com/"
