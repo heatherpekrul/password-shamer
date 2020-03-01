@@ -6,6 +6,9 @@
     "stylelint": "npx stylelint 'assets/sass/*.scss'"
   },
   "devDependencies": {
+    "autoprefixer": "^9.7.4",
+    "browserslist": "^4.9.1",
+    "postcss-cli": "^7.1.0",
     "pre-commit": "^1.2.2",
     "stylelint": "^13.2.0",
     "stylelint-config-standard": "^20.0.0",
