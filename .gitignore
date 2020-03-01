@@ -3,3 +3,4 @@ resources
 public
 deploy_rsa
 deploy_rsa.pub
+node_modules

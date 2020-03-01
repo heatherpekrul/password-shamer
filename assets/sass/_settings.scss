@@ -1,6 +1,6 @@
 // COLORS
 $color-party-girl: #fc338f;
-$color-berry-girl: #D62D83;
+$color-berry-girl: #d62d83;
 $color-danger-zone: #18141c;
 $color-cream: #fef4d4;
 $color-peach: #ffd5aa;
@@ -10,12 +10,12 @@ $color-white: #fff;
 $color-black: #000;
 
 // TYPOGRAPHY
-@import url('https://fonts.googleapis.com/css?family=Inconsolata|Lato&display=swap');
 
 // Typography Settings
 $font-base-size: 16px;
 
 // Font Faces
+
 @mixin font-inconsolata {
   font-family: 'Inconsolata', monospace;
 }
@@ -25,11 +25,13 @@ $font-base-size: 16px;
 }
 
 // Abstracted Fonts
+
 @mixin font-primary {
   @include font-lato();
 }
 
 @mixin font-accent {
   @include font-inconsolata();
+
   letter-spacing: 0.05em;
 }

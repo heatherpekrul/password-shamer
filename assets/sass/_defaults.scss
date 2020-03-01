@@ -5,8 +5,8 @@ html {
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
   box-sizing: inherit;
@@ -14,6 +14,7 @@ html {
 
 body {
   @include font-primary();
+
   font-size: $font-base-size * 0.85;
   line-height: 1.4;
   color: $color-white;
@@ -42,6 +43,7 @@ h4,
 h5,
 h6 {
   @include font-accent();
+
   line-height: 1.25;
   margin: 0.25em 0;
 }
