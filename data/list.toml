@@ -1,14 +1,14 @@
 [[entity]]
-  name = "AT&T"
-  plaintextPasswordFlag = false
-  url = "https://www.att.com/"
-  description = "Password must be 6-24 characters long and use at least one letter and one number. Only upper/lower case letters, numbers, hyphens and underscores are allowed."
-
-[[entity]]
   name = "Apple"
   plaintextPasswordFlag = false
   url = "https://appleid.apple.com/"
   description = "Passwords must contain a number, an uppercase letter, and a lowercase letter. Passwords can't use spaces or the same character three times in a row."
+
+[[entity]]
+  name = "AT&T"
+  plaintextPasswordFlag = false
+  url = "https://www.att.com/"
+  description = "Password must be 6-24 characters long and use at least one letter and one number. Only upper/lower case letters, numbers, hyphens and underscores are allowed."
 
 [[entity]]
   name = "Bank of America"
