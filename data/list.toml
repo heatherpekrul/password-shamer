@@ -94,6 +94,11 @@
   description = "Only allows a four digit PIN to protect your account."
 
 [[entity]]
+  name = "Jackson & Perkins"
+  url = "https://www.jacksonandperkins.com/"
+  description = "Between 5-15 characters."
+
+[[entity]]
   name = "Johnson County Wastewater"
   url = "https://jcwcss.jcw.org/webinquiry/JSP/login.jsp"
   description = "This is a mess."
