@@ -159,6 +159,11 @@
   description = "Max 20 characters"
 
 [[entity]]
+  name = "Prairie Nursery"
+  url = "https://www.prairienursery.com/"
+  description = "6-15 Alphanumeric characters"
+
+[[entity]]
   name = "Project Euler"
   url = "https://projecteuler.net"
   description = "Passwords must contain between 8 and 32 characters."
@@ -172,6 +177,11 @@
   name = "Rockstar Games Social Club"
   url = "https://socialclub.rockstargames.com/"
   description = "Only allows alphanumeric characters."
+
+[[entity]]
+  name = "Room Sketcher"
+  url = "https://www.roomsketcher.com/"
+  description = "6-20 Alphanumeric characters"
 
 [[entity]]
   name = "Sarpinos Pizzeria"
