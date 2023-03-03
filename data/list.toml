@@ -257,3 +257,8 @@
   name = "Zoom"
   url = "https://zoom.us/"
   description = "Only allows passwords of up to 32 characters in length."
+  
+[[entity]]
+  name = "Ubisoft"
+  url = "https://www.ubisoft.com/"
+  description = "Only allows passwords of up to 16 characters in length."
