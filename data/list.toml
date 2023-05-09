@@ -229,6 +229,11 @@
   description = "Only allows passwords of up to 32 characters, and restricts use of special characters. Cannot contain >= 3 of the same character sequentially."
 
 [[entity]]
+  name = "Ubisoft"
+  url = "https://www.ubisoft.com/"
+  description = "Only allows passwords of up to 16 characters in length."
+
+[[entity]]
   name = "Victoria's Secret"
   url = "https://www.victoriassecret.com/"
   description = "Disallows special characters."
